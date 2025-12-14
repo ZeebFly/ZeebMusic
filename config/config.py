@@ -65,7 +65,7 @@ DURATION_LIMIT_MIN = int(
 )  # Remember to give value in Minutes
 
 
-EXTRA_PLUGINS = is_bool(getenv("EXTRA_PLUGINS", "True"))
+EXTRA_PLUGINS = is_bool(getenv("EXTRA_PLUGINS", "False"))
 
 # Fill False if you Don't want to load extra plugins
 
