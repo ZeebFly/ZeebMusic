@@ -27,6 +27,11 @@ Get started quickly by deploying to Heroku with just one click:
   sudo apt update && sudo apt upgrade -y && sudo apt install -y ffmpeg git python3-pip tmux nano
   ```
 
+  ```
+apt update
+apt install -y python3-venv python3-pip
+  ```
+
 - **Install uv for Efficient Dependency Management**:
   ```bash
   pip install --upgrade uv
