@@ -72,7 +72,7 @@ EXTRA_PLUGINS = is_bool(getenv("EXTRA_PLUGINS", "False"))
 
 EXTRA_PLUGINS_REPO = getenv(
     "EXTRA_PLUGINS_REPO",
-    "https://github.com/TheTeamVivek/Extra-Plugin",
+    "https://github.com/ZeebFlyk/Extra-Plugin",
 )
 # Fill here the external plugins repo where plugins that you want to load
 
@@ -101,7 +101,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/ZeebFly/ZeebMusic",
+    "https://github.com/ZeebFly/ZeebMusicBot",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
