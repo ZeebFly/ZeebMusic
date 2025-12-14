@@ -27,9 +27,8 @@ Get started quickly by deploying to Heroku with just one click:
 sudo apt update && sudo apt upgrade -y && sudo apt install -y ffmpeg git python3-pip tmux nano
 ```
 
-- **And**:
+- **Install python**:
 ```
-apt update
 apt install -y python3-venv python3-pip python3-distutils
 ```
 
@@ -40,37 +39,37 @@ pip install --upgrade uv
 
 
 - **Clone the Repository:**  
-  ```bash
-  git clone https://github.com/TheTeamVivek/ZeebMusic && cd ZeebMusic
-  ```
+```
+git clone https://github.com/TheTeamVivek/ZeebMusic && cd ZeebMusic
+```
   
 
 - **Create and Activate a Virtual Environment:**
   - You can create and activate the virtual Environment before cloning the repo.
-  ```bash
-  uv venv .venv && source .venv/bin/activate
-  ```
+```
+uv venv .venv && source .venv/bin/activate
+```
 
 - Install Python Requirements:  
-  ```bash
-  uv pip install -e .
-  ```
+```
+uv pip install -e .
+```
 
 - Copy and Edit Environment Variables:  
-  ```bash
-  cp sample.env .env && nano .env
-  ```
+```
+cp sample.env .env && nano .env
+```
   After editing, press `Ctrl+X`, then `Y`, and press **Enter** to save the changes.
 
 - Start a tmux Session to Keep the Bot Running:  
-  ```bash
+```
   tmux
-  ```
+```
 
 - Run the Bot:  
-  ```bash
-  zeebmusic
-  ```
+```
+  bash start
+```
 
 - Detach from the **tmux** Session (Bot keeps running):  
   Press `Ctrl+b`, then `d`
