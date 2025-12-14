@@ -14,7 +14,7 @@ from pymongo import AsyncMongoClient
 
 import config
 
-DB_NAME = "Yukki"
+DB_NAME = "ZeebNIHBOSS"
 
 if config.MONGO_DB_URI is None:
     logging.getLogger(__name__).error(
