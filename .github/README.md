@@ -23,20 +23,20 @@ Get started quickly by deploying to Heroku with just one click:
 ### 🖥️ VPS Deployment Guide
 
 - **Update System and Install Dependencies**:  
-  ```bash
-  sudo apt update && sudo apt upgrade -y && sudo apt install -y ffmpeg git python3-pip tmux nano
-  ```
+```
+sudo apt update && sudo apt upgrade -y && sudo apt install -y ffmpeg git python3-pip tmux nano
+```
 
 - **And**:
-  ```bash
-  apt update
+```
+apt update
 apt install -y python3-venv python3-pip python3-distutils
-  ```
+```
 
 - **Install uv for Efficient Dependency Management**:
-  ```bash
-  pip install --upgrade uv
-  ```
+```
+pip install --upgrade uv
+```
 
 
 - **Clone the Repository:**  
