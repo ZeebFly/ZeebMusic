@@ -16,7 +16,6 @@ try:
 except Exception:
     pass
 
-# ⬇️ TAMBAHKAN INI (PENTING UNTUK PYROGRAM SYNC)
 try:
     asyncio.get_event_loop()
 except RuntimeError:
