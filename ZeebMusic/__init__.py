@@ -21,7 +21,7 @@ try:
 except RuntimeError:
     asyncio.set_event_loop(asyncio.new_event_loop())
 
-from ZeebMusic.core.bot import YukkiBot
+from ZeebMusic.core.bot import ZeebBot
 from ZeebMusic.core.dir import dirr
 from ZeebMusic.core.git import git
 from ZeebMusic.core.userbot import Userbot
