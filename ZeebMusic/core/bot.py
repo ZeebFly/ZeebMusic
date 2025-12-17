@@ -39,7 +39,7 @@ import config
 from ..logging import LOGGER
 
 
-class YukkiBot(Client):
+class ZeebBot(Client):
     def __init__(self, *args, **kwargs):
         LOGGER(__name__).info("Starting Bot...")
 
