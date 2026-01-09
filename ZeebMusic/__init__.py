@@ -1,11 +1,3 @@
-#
-# Copyright (C) 2024-2025 by TheTeamVivek@Github, < https://github.com/TheTeamVivek >.
-#
-# This file is part of < https://github.com/TheTeamVivek/ZeebMusic > project,
-# and is released under the MIT License.
-# Please see < https://github.com/TheTeamVivek/ZeebMusic/blob/master/LICENSE >
-#
-# All rights reserved.
 import asyncio as _asyncio
 
 import asyncio
@@ -41,7 +33,7 @@ dbb()
 # Heroku APP
 heroku()
 
-app = YukkiBot()
+app = ZeebBot()
 userbot = Userbot()
 
 HELPABLE = {}
