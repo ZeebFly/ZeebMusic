@@ -1,3 +1,4 @@
+# by @zeebdisini
 name : "🏴 Bahasa Indonesia"
 
 # General Strings
@@ -430,3 +431,95 @@ heroku_12: "🔍 Memeriksa penggunaan Heroku... harap tunggu!"
 heroku_13: "🔄 Memeriksa pembaruan yang tersedia..."
 heroku_14: "⚠️ Kesalahan perintah Git."
 heroku_15: "❌ Repositori git tidak valid
+
+# Helpers
+
+AUTH_HELPER: |
+  <b>Pengguna Auth dapat menggunakan perintah Admin tanpa hak admin di obrolan Anda.</b>
+  
+  <b>✧ {AUTH_COMMAND}</b> [Username] - Tambahkan pengguna ke DAFTAR AUTH grup.
+  
+  <b>✧ {UNAUTH_COMMAND}</b> [Username] - Hapus pengguna dari DAFTAR AUTH grup.
+  
+  <b>✧ {AUTHUSERS_COMMAND}</b> - Periksa DAFTAR AUTH grup.
+
+ADMIN_HELPER: |
+  <b>c berarti channel play</b>
+  
+  <b>✧ {PAUSE_COMMAND}</b> - Jeda musik yang diputar.
+  <b>✧ {RESUME_COMMAND}</b> - Lanjutkan musik yang dijeda.
+  <b>✧ {MUTE_COMMAND}</b> - Bisukan musik yang diputar.
+  <b>✧ {UNMUTE_COMMAND}</b> - Bunyikan kembali musik yang dibisukan.
+  <b>✧ {SKIP_COMMAND}</b> - Lewati musik yang sedang diputar.
+  <b>✧ {STOP_COMMAND}</b> - Hentikan musik yang diputar.
+  <b>✧ {SHUFFLE_COMMAND}</b> - Acak daftar putar/lagu antrean.
+  <b>✧ {SEEK_COMMAND}</b> - Maju musik.
+  <b>✧ {SEEK_BACK_COMMAND}</b> - Mundur musik ke durasi Anda.
+  <b>✧ {REBOOT_COMMAND}</b> - Reboot bot untuk obrolan Anda.
+  
+  <b>✧ {SKIP_COMMAND}</b> [Nomor (Contoh: 3)] - Lewati musik ke nomor tertentu. Contoh: <b>/skip 3</b> akan melewati ke musik ketiga dalam antrean dan mengabaikan 1 dan 2.
+  
+  <b>✧ {LOOP_COMMAND}</b> [Enable/Disable] atau [Angka antara 1-10] - Saat diaktifkan, bot akan mengulang musik saat ini 1-10 kali di obrolan suara. Nilai default loop adalah 10 kali.
+
+ACTIVE_HELPER: |
+  <b>✧ {ACTIVEVC_COMMAND}</b> - Periksa obrolan suara aktif di bot.
+  
+  <b>✧ {ACTIVEVIDEO_COMMAND}</b> - Periksa obrolan suara dan video aktif di bot.
+  
+  <b>✧ {AC_COMMAND}</b> - Periksa panggilan video aktif di bot.
+  
+  <b>✧ {STATS_COMMAND}</b> - Periksa statistik bot.
+
+PLAY_HELPER: |
+  <b>✧ {PLAY_COMMAND}</b> - Bot akan mulai memutar permintaan Anda di obrolan suara atau stream tautan live.
+  
+  <b>✧ {PLAYMODE_COMMAND}</b> - Force Play menghentikan lagu yang sedang diputar dan langsung memutar lagu yang dicari tanpa mengganggu/menghapus antrean.
+  
+  <b>✧ {CHANNELPLAY_COMMAND}</b> - Hubungkan saluran ke grup dan stream musik di obrolan suara saluran dari grup Anda.
+  
+  <b>✧ {STREAM_COMMAND}</b> - Stream URL yang Anda yakini langsung atau m3u8 yang tidak bisa diputar dengan /play.
+
+GCAST_HELPER: |
+  <b>{BROADCAST_COMMAND} [Pesan atau Balas pesan]</b> » Siarkan pesan ke obrolan yang dilayani bot
+  <u>Mode Siaran:</u>
+  
+  <b><code>-pin</code></b> » Sematkan pesan siaran Anda di obrolan yang dilayani
+  
+  <b><code>-pinloud</code></b> » Sematkan pesan siaran Anda di obrolan yang dilayani dan kirim notifikasi ke anggota
+  
+  <b><code>-user</code></b> » Siarkan pesan ke pengguna yang telah memulai bot Anda [Anda juga bisa menyematkan pesan dengan menambahkan `-pin` atau `-pinloud`]
+  
+  <b><code>-assistant</code></b> » Siarkan pesan melalui semua asisten bot
+  
+  <b><code>-nobot</code></b> » Pastikan **bot** tidak menyiarkan pesan [Berguna jika Anda tidak ingin menyiarkan ke grup]
+  
+  > <b>Contoh:</b> <code>/{BROADCAST_COMMAND} -user -assistant -pin Tes siaran</code>
+
+BOT_HELPER: |
+  <b>★ {GSTATS_COMMAND}</b> - Dapatkan Statistik Top 10 Lagu Global, Top 10 Pengguna Bot, Top 10 Obrolan Bot, Top 10 Lagu di obrolan, dll.
+  
+  <b>★ {SUDOUSERS_COMMAND}</b> - Periksa pengguna Sudo bot.
+  
+  <b>★ {LYRICS_COMMAND} [Nama Musik]</b> - Cari lirik musik tertentu di web.
+  
+  <b>★ {SONG_COMMAND} [Nama Lagu] atau [Tautan YT]</b> - Unduh lagu dari YouTube dalam format
+
+PLIST_HELPER: |
+  <b>{PLAYLIST_COMMAND}</b> - Periksa seluruh daftar putar Anda di server bot
+  
+  <b>{DELETE_PLAYLIST_COMMAND}</b> - Hapus lagu dari daftar putar Anda
+  
+  <b>{PLAY_PLAYLIST_COMMAND}</b> - Mulai memutar daftar putar Anda dalam **audio**
+  
+  <b>{PLAY_PLAYLIST_COMMAND}</b> - Mulai memutar daftar putar Anda dalam **video**
+
+BLIST_HELPER: |
+  <b>✧ {BLACKLISTCHAT_COMMAND}</b> [chat ID] - Masukkan obrolan ke daftar hitam dari penggunaan Bot Musik.
+  <b>✧ {WHITELISTCHAT_COMMAND}</b> [chat ID] - Masukkan obrolan daftar hitam ke daftar putih.
+  <b>✧ {BLACKLISTEDCHAT_COMMAND}</b> - Periksa semua obrolan yang diblokir.
+  
+  <b>✧ {BLOCK_COMMAND}</b> [Username atau balas pengguna] - Mencegah pengguna menggunakan perintah bot.
+  <b>✧ {UNBLOCK_COMMAND}</b> [Username atau balas pengguna] - Hapus pengguna dari daftar blokir bot.
+  <b>✧ {BLOCKED_COMMAND}</b> - Periksa daftar pengguna yang diblokir.
+  
+  <b>✧ {GBAN_COMMAND}</b> [Username atau balas pengguna] - Blokir global pengguna dari semua
