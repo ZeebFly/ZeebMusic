@@ -214,3 +214,219 @@ logger_text: "**{bot_mention} Log Pemutaran**\n\n**ID Obrolan:** `{chat_id}`\n**
 # Ping
 ping_1: "» {0} sedang ping..."
 ping_2: "**» PONG**: `{0}`ms \n\n<b><u>{1} statistik sistem :</u></b>\n\n🌋 Waktu aktif : {2}\n🌋 RAM : {3} \n🌋 CPU :
+
+# Song
+song_1: "🚫 Anda hanya dapat mengunduh musik atau video dari YouTube di obrolan pribadi. Silakan mulai saya di obrolan pribadi."
+song_2: "**PENGGUNAAN:**\n\n/song [nama musik] atau [tautan YouTube]"
+song_3: "❌ Tautan live terdeteksi. Saya tidak dapat mengunduh video YouTube live."
+song_4: "**JUDUL**: {0}\n\nPilih tipe yang ingin Anda unduh."
+song_5: "❌ Tautan YouTube tidak valid."
+song_6: "🔄 Mendapatkan format...\n\nHarap tunggu..."
+song_7: "❌ Gagal mendapatkan format yang tersedia untuk video. Silakan coba lagu lain."
+song_8: "📥 Unduhan dimulai\n\nHarap tunggu beberapa detik..."
+song_9: "❌ Gagal mengunduh lagu dari yt-dl\n\n**Alasan:** {0}"
+song_10: "❌ Gagal mengunggah ke server Telegram."
+song_11: "📤 Unggahan dimulai\nHarap tunggu..."
+
+# Tools - Queue
+queue_1: "⏳ » Harap tunggu..."
+queue_2: "🚫 Daftar antrean kosong. Tidak ada lagu ditemukan."
+queue_3: "<u>**Lagu dalam antrean:</u>**  [Lihat lebih banyak lagu antrean dari sini]({0})"
+queue_4: "**💫 Ditambahkan ke antrean di #{0}**\n\n**🥀Judul:** {1}\n**⏱ Durasi:** {2}\n**🥀Ditambahkan oleh:** {3} ❄️"
+queue_5: "🚫 Hanya satu lagu dalam antrean; tambahkan beberapa lagu lagi untuk memeriksa seluruh antrean."
+
+# All Streaming Lines
+stream_1: "**✮ Streaming Dimulai**\n\n**✯ Judul:** [{0}]({1})\n**✬ Durasi:** {2} menit\n**✭ Oleh:** {3}"
+stream_2: "➲ **Streaming Dimulai |**\n\n**‣ Jenis stream:** live stream [url]\n**‣ Oleh:** {0}"
+
+# Voice Chat
+V_C_1: "🔄 Mengambil daftar peserta...."
+V_C_2: "**Nama:** {0}\n    **ID:** {1}\n    **Username:** {2}\n    **Berbagi video:** {3}\n    **Berbagi layar:** {4}\n    **Tangan terangkat:** {5}\n    **Dibisukan:** {6}\n    **Sedang berbicara:** {7}\n    **Keluar dari grup:** {8}"
+V_C_3: "🚫 Tidak ada peserta di obrolan suara."
+V_C_4: "[🔗 Anda dapat memeriksa semua detail peserta obrolan suara dari sini]({0})"
+V_C_5: "❌ Tidak ada panggilan aktif di obrolan ini."
+
+# Misc
+misc_1: "🤖 Bot secara otomatis menghapus antrean dan keluar dari obrolan suara karena tidak ada yang mendengarkan musik di obrolan suara."
+
+# Inline Buttons
+
+# General Buttons
+CLOSE_BUTTON: "Tutup"
+CLOSEMENU_BUTTON: "Tutup"
+BACK_BUTTON: "🔙 Kembali"
+UNBAN_BUTTON: "🆓 Buka blokir asisten"
+
+# Lyrics
+L_B_1: "🎶 Lihat lirik sekarang"
+
+# Start
+S_B_1 : "🗒 Perintah"
+S_B_2 : "🔧 Pengaturan"
+S_B_3 : "💬 Dapatkan Bantuan!"
+S_B_4 : "🔔 Pembaruan"
+S_B_5 : "✚ Tambahkan Saya, Mari Mainkan! ✚"
+S_B_6 : "🚀 Repo GitHub"
+S_B_7 : "👑 Pembuat"
+S_B_8 : "🔎 Cara menggunakan? Menu Perintah"
+
+# PlayMode
+PM_B_1 : "Putar langsung"
+PM_B_2 : "Inline markup"
+PM_B_3 : "Putar saluran"
+
+# Play
+P_B_1 : "🎵 Putar audio"
+P_B_2 : "🎥 Putar video"
+P_B_3 : "🏮 Mulai livestream"
+P_B_4 : "🎵 Putar daftar putar"
+
+P_B_5 : "Bisukan"
+P_B_6 : "Bunyikan kembali"
+P_B_7 : "✚ Daftar putar"
+
+# Playlist
+PL_B_1 : "🚀 Putar daftar putar"
+PL_B_2 : "Daftar putar"
+PL_B_3 : "✚ Panel kontrol"
+
+# Play Buttons
+PL_B_4 : "📡 Mode Putar"
+PL_B_5 : "🔄 Hapus Seluruh Daftar Putar"
+PL_B_6 : "↗️ Hapus Daftar Putar"
+PL_B_7 : "❗️ Ya, Saya Yakin. Hapus"
+PL_B_8 : "🔢 Putar Top 10"
+PL_B_9 : "🤖 Putar Top 10 Global"
+PL_B_10 : "🏘 Putar Top 10 Grup"
+PL_B_11 : "👤 Putar Top 10 Pribadi"
+PL_B_12 : "🏘 Putar Daftar Putar Grup"
+
+# Settings
+ST_B_1 : "🔊 Kualitas Audio"
+ST_B_2 : "🎥 Kualitas Video"
+ST_B_3 : "🎩 Pengguna Auth"
+ST_B_4 : "📱 Dasbor"
+ST_B_5 : "▶️ Mode Putar"
+ST_B_6 : "🏳️‍🌈 Bahasa"
+ST_B_7 : "🔄 Mode Bersih"
+ST_B_8 : "{0} Kualitas Rendah"
+ST_B_9 : "{0} Kualitas Sedang"
+ST_B_10 : "{0} Kualitas Tinggi"
+ST_B_11 : "{0} Kualitas Studio"
+ST_B_12 : "{0} Kualitas SD-360p"
+ST_B_13 : "{0} Kualitas SD-480p"
+ST_B_14 : "{0} Kualitas HD-720p"
+ST_B_15 : "{0} Kualitas FHD-1080p"
+ST_B_16 : "{0} Kualitas QHD-2k"
+ST_B_17 : "{0} Kualitas QHD-4k"
+ST_B_18 : "✅ Diaktifkan"
+ST_B_19 : "❌ Dinonaktifkan"
+ST_B_20 : "👤 Admin"
+ST_B_21 : "👥 Semua orang"
+ST_B_22 : "📋 Daftar Pengguna Auth"
+ST_B_23 : "🔎 Mode Pencarian"
+ST_B_24 : "✅ Langsung"
+ST_B_25 : "✅ Inline"
+ST_B_26 : "👨‍⚖️ Perintah Admin"
+ST_B_27 : "🏘 Grup"
+ST_B_28 : "🏷 Saluran"
+ST_B_29 : "🫂 Jenis Putar"
+ST_B_30 : "🗑 Bersihkan Perintah"
+ST_B_31 : "🧑‍🚀 Mode Saran"
+
+# Song Buttons
+SG_B_1 : "↗️ Buka di Pribadi"
+SG_B_2 : "🔊 Audio"
+SG_B_3 : "🎥 Video"
+
+# Stats
+SA_B_1 : "📢 Top 10 Obrolan"
+SA_B_2 : "🔢 Top 10 Lagu"
+SA_B_3 : "🧛 Top 10 Pengguna"
+SA_B_4 : "🏷 Top 10 Di Sini"
+SA_B_5 : "💡 Statistik Keseluruhan"
+SA_B_6 : "👤 Statistik Pengguna"
+SA_B_7 : "🔢 Statistik Top 10 Global"
+SA_B_8 : "🤖 Statistik Bot"
+
+# Queue
+QU_B_1: "📋 Daftar antrean"
+QU_B_2: "▶️ Diputar {0} dari {1} menit"
+
+# Sudo
+sudo_1: "{0} sudah menjadi pengguna sudo."
+sudo_2: "✅ Ditambahkan **{0}** ke pengguna sudo."
+sudo_3: "❌ Bukan bagian dari sudo bot."
+sudo_4: "🚫 Dihapus dari pengguna sudo bot."
+sudo_5: "🔥 <u>**pemilik:**</u>\n"
+sudo_6: "\n🔥 <u>**sudoers:**</u>\n"
+sudo_7: "🔍 Tidak ada pengguna sudo ditemukan."
+
+# Block
+block_1: "{0} sudah diblokir dari bot."
+block_2: "🚫 Ditambahkan **{0}** ke daftar blokir bot. Pengguna tidak akan bisa menggunakan bot sekarang dalam kondisi apa pun.\n\nPeriksa pengguna yang diblokir: /blockedusers"
+block_3: "🆓 Pengguna sudah bebas."
+block_4: "✅ Pengguna dihapus dari daftar blokir. Pengguna sekarang bisa menggunakan bot."
+block_5: "🔍 Tidak ada pengguna yang diblokir ditemukan."
+block_6: "⏳ Mengambil daftar pengguna yang diblokir... harap tunggu!"
+block_7: "**Pengguna yang diblokir:**\n\n"
+
+# Blacklist Chats
+black_1: "**Penggunaan:**\n/blacklistchat [CHAT_ID]"
+black_2: "🚫 Obrolan sudah masuk daftar hitam."
+black_3: "✅ Obrolan berhasil masuk daftar hitam."
+black_4: "**Penggunaan:**\n/whitelistchat [CHAT_ID]"
+black_5: "✅ Obrolan sudah masuk daftar putih."
+black_6: "✅ Obrolan berhasil masuk daftar putih."
+black_7: "**Obrolan daftar hitam:**\n\n"
+black_8: "🔍 Tidak ada obrolan daftar hitam."
+
+# Video Limit
+vid_1: "**Penggunaan:**\n/set_video_limit [jumlah obrolan] atau [disable]"
+vid_2: "🔢 Harap gunakan angka numerik untuk menetapkan batas."
+vid_3: "📊 Batas maksimum panggilan video ditetapkan ke {0} obrolan."
+vid_4: "🚫 Panggilan video dinonaktifkan."
+
+# Maintenance
+maint_1: "**Penggunaan:**\n/maintenance [enable|disable]"
+maint_2: "🔧 Diaktifkan untuk pemeliharaan."
+maint_3: "🔧 Mode pemeliharaan dinonaktifkan."
+maint_4: "🛠️ Bot sedang dalam pemeliharaan. Kunjungi dukungan untuk mengetahui alasannya."
+maint_5: "Mode Pemeliharaan sudah Dinonaktifkan."
+maint_6: "Mode Pemeliharaan sudah Diaktifkan."
+
+# Log
+log_1: "**Penggunaan:**\n/logger [enable|disable]"
+log_2: "✅ Logging diaktifkan."
+log_3: "❌ Logging dinonaktifkan."
+
+# Video Mode
+vidmode_1: "**Penggunaan:**\n/videomode [download|m3u8]"
+vidmode_2: "📥 Mode putar video ditetapkan sebagai pengunduh. Bot akan mengunduh lagu sekarang."
+vidmode_3: "🔗 Mode putar video ditetapkan sebagai m3u8. Bot sekarang dapat memutar lagu secara live."
+
+# Broadcast
+broad_1: "**📢 Pesan disiarkan di {0} obrolan dengan {1} pin dari bot.**"
+broad_2: "🔊 Siaran asisten dimulai..."
+broad_3: "**Siaran asisten:\n\n"
+broad_4: "🗣️ Asisten {0} disiarkan di {1} obrolan\n"
+broad_5: "**Penggunaan**:\n/broadcast [PESAN] atau [Balas Pesan]"
+broad_6: "❗ Harap berikan teks untuk disiarkan."
+broad_7: "**📬 Pesan disiarkan ke {0} pengguna dengan {1} pin dari bot.**"
+
+# Heroku
+heroku_1: "🔑 Pastikan **Heroku API Key**, **Nama Aplikasi** dikonfigurasi dengan benar di Heroku."
+heroku_2: "📜 Anda hanya dapat mengambil log dari aplikasi Heroku."
+heroku_3: "**Penggunaan:**\n/get_var [Nama Var]"
+heroku_4: "🚫 Tidak dapat menemukan var tersebut."
+heroku_5: "❌ File .env tidak ditemukan."
+heroku_6: "**Penggunaan:**\n/del_var [Nama Var]"
+heroku_7: "✅ {0} dihapus."
+heroku_8: "**Penggunaan:**\n/set_var [Nama Var] [Nilai Var]"
+heroku_9: "✅ {0} berhasil diperbarui."
+heroku_10: "✅ {0} berhasil ditambahkan."
+heroku_11: "🛠️ Hanya untuk aplikasi Heroku."
+heroku_12: "🔍 Memeriksa penggunaan Heroku... harap tunggu!"
+heroku_13: "🔄 Memeriksa pembaruan yang tersedia..."
+heroku_14: "⚠️ Kesalahan perintah Git."
+heroku_15: "❌ Repositori git tidak valid
