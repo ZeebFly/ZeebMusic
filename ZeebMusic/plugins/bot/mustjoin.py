@@ -1,11 +1,11 @@
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 from pyrogram.errors import ChatAdminRequired, UserNotParticipant, ChatWriteForbidden
-from AlexaMusic import app
+from ZeebMusic import app
 
 #--------------------------
 
-MUST_JOIN = "MusicTelegramId"
+MUST_JOIN = "RuangZeeb"
 #------------------------
 @app.on_message(filters.incoming & filters.private, group=-1)
 async def must_join_channel(app: Client, msg: Message):
