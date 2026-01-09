@@ -1,13 +1,3 @@
-#
-# Copyright (C) 2024-2025 by TheTeamVivek@Github, < https://github.com/TheTeamVivek >.
-#
-# This file is part of < https://github.com/TheTeamVivek/ZeebMusic > project,
-# and is released under the MIT License.
-# Please see < https://github.com/TheTeamVivek/ZeebMusic/blob/master/LICENSE >
-#
-# All rights reserved.
-#
-
 from pyrogram.errors import ChannelPrivate
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
@@ -49,7 +39,17 @@ def PlayWrapper(command):
                 ]
             )
             return await message.reply_text(_["general_4"], reply_markup=upl)
-
+        if MUST_JOIN:
+            try:
+                await app.get_chat_member(MUST_JOIN, message.from_user.id)
+            except UserNotParticipant:
+                sub = await app.export_chat_invite_link(MUST_JOIN)
+                kontol = InlineKeyboardMarkup(
+                    [
+                        [InlineKeyboardButton("➕ Gabung Dulu", url="https://t.me/")]
+                    ]
+                )
+                return await message.reply_text(_["force_sub"].format(message.from_user.mention), reply_markup=kontol)
         if await is_maintenance() is False:
             if message.from_user.id not in SUDOERS:
                 return
