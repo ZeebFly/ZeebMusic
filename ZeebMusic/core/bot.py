@@ -1,12 +1,3 @@
-#
-# Copyright (C) 2024-2025 by TheTeamVivek@Github, < https://github.com/TheTeamVivek >.
-#
-# This file is part of < https://github.com/TheTeamVivek/ZeebMusic > project,
-# and is released under the MIT License.
-# Please see < https://github.com/TheTeamVivek/ZeebMusic/blob/master/LICENSE >
-#
-# All rights reserved.
-#
 import asyncio
 import importlib.util
 import os
@@ -151,20 +142,20 @@ class ZeebBot(Client):
 
     async def _set_default_commands(self):
         private_commands = [
-            BotCommand("start", "Start the bot"),
-            BotCommand("help", "Get the help menu"),
-            BotCommand("ping", "Check if the bot is alive or dead"),
+            BotCommand("start", "Start bot"),
+            BotCommand("help", "Bantuan"),
+            BotCommand("ping", "Cek Status Bot"),
         ]
-        group_commands = [BotCommand("play", "Start playing requested song")]
+        group_commands = [BotCommand("play", "Mulai Putar Lagu")]
         admin_commands = [
-            BotCommand("play", "Start playing requested song"),
-            BotCommand("skip", "Move to next track in queue"),
-            BotCommand("pause", "Pause the current playing song"),
-            BotCommand("resume", "Resume the paused song"),
-            BotCommand("end", "Clear the queue and leave voice chat"),
+            BotCommand("play", "Mulai putar lagu"),
+            BotCommand("skip", "Lewati"),
+            BotCommand("pause", "Hentikan"),
+            BotCommand("resume", "Lanjutkan"),
+            BotCommand("end", "Akhiri Streaming"),
             BotCommand("shuffle", "Randomly shuffle the queued playlist"),
             BotCommand("playmode", "Change the default playmode for your chat"),
-            BotCommand("settings", "Open bot settings for your chat"),
+            BotCommand("settings", "Pengaturan bot di obrolan"),
         ]
         owner_commands = [
             BotCommand("update", "Update the bot"),
