@@ -5,7 +5,7 @@
 | Code | Language | Contributor |
 |------|----------|-------------|
 | en   | English  | Thanks to [TeamYukki](https://t.me/TeamYukki) |
-| id   | indonesia  | Thanks to [TeamYukki](https://t.me/zeebdisini) |
+| id   | indonesia  | Thanks to [Zeeb](https://t.me/zeebdisini) |
 | ku   | Kurdish  | Thanks to [Mohammed](https://t.me/IQ7amo) |
 | hi   | Hindi    | Thanks to [TeamYukki](https://t.me/TeamYukki) |
 | ar   | Arabic   | Thanks to [Mustafa](https://t.me/tr_4z) |
